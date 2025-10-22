@@ -6,8 +6,9 @@ A technical reference for exploring the internals of Check Point Management's CP
 
 ## 📂 Contents
 
-- `cpm_doctor_checks.md` — Breakdown of CPM Doctor Tool commands and their functions
-- `cpm_db_schema.md` — PostgreSQL schema mapping for the `cpm` database
+- [`cpm_doctor_checks.md`](https://github.com/fwsec/checkpoint-cpm-db/blob/main/cpm_doctor_checks.md) — Breakdown of CPM Doctor Tool commands and their functions
+- [`cpm_db_schema.md`](https://github.com/fwsec/checkpoint-cpm-db/blob/main/cpm_db_schema.md) — PostgreSQL schema mapping for the `cpm` database
+- [`cpm_queries.md`](https://github.com/fwsec/checkpoint-cpm-db/blob/main/cpm_queries.md) — Useful PostgreSQL queries
 
 ---
 
