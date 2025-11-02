@@ -8,10 +8,10 @@ Each section below links to a detailed Markdown file containing table and view s
 
 ## Database Structure Overview
 
-- [Monitoring Tables](./monitoring_tables.md)  
-- [Monitoring Views](./monitoring_views.md)  
-- [CPM Tables](./cpm_tables.md)  
-- [CPM Views](./cpm_views.md)
+- [Monitoring Tables](./r82/monitoring_tables.md)  
+- [Monitoring Views](./r82/monitoring_views.md)  
+- [CPM Tables](./r82/cpm_tables.md)  
+- [CPM Views](./r82/cpm_views.md)
 
 ---
 
