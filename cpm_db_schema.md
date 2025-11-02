@@ -6,7 +6,7 @@ Each section below links to a detailed Markdown file containing table and view s
 
 ---
 
-## Database Structure Overview
+## R82 Database Structure Overview
 
 - [Monitoring Tables](./monitoring_tables.md)  
 - [Monitoring Views](./monitoring_views.md)  
@@ -21,7 +21,6 @@ Each document includes:
 - Column definitions with data types  
 - Indexes, constraints, and triggers  
 - Sample data (first 20 rows per table)  
-- Metadata on creation time and access permissions  
 
 Generated automatically from:
 ```bash
