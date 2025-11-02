@@ -63,16 +63,6 @@ View definition:
 
 ```
 
-**Sample Data (First 20 Rows):**
-
-```text
-     update_date     |                 obj_id                 | amon_overall_state | application_error_description 
----------------------+----------------------------------------+--------------------+-------------------------------
- 2025-10-16 09:22:56 | {28532496-7421-8C4F-A306-DED808D0B191} | 0                  | 
-(1 row)
-
-```
-
 ### blade_update_statuses_view
 
 **Schema Definition:**
