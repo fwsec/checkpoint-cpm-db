@@ -1,4 +1,4 @@
-# Check Point CPM & Monitoring Database Schema R82
+# Check Point CPM & Monitoring Database Schema - R82
 
 This repository documents the internal schema of the Check Point **CPM (Central Policy Management)** and **Monitoring** PostgreSQL databases.
 
@@ -6,7 +6,7 @@ Each section below links to a detailed Markdown file containing table and view s
 
 ---
 
-## R82 Database Structure Overview
+## R82 - Database Structure Overview
 
 - [Monitoring Tables](./monitoring_tables.md)  
 - [Monitoring Views](./monitoring_views.md)  
