@@ -69,4 +69,23 @@ However, for **operational clarity** and to avoid confusion, it is a **best prac
 #### ✅ Practical Guidance
 
 - **Best Practice:** Keep the **host name**, **object name**, **ICA FQDN**, and **SIC name** aligned for easier management and troubleshooting.
-- **Technical Requirement:** The **SIC name must match exactly** between the communicating components.  
+- **Technical Requirement:** The **SIC name must match exactly** between the communicating components.
+
+## 🔍 Query: Retrieve layers and rules
+
+```bash
+psql_client cpm postgres -c "
+SELECT r.objid AS rule_uid,
+       r.name AS rule_name,
+       r.num AS rule_number,
+       COALESCE(h.hits, 0) AS hit_count,
+       l.name AS layer_name,
+       p.name AS policy_name
+FROM accessctrlrule_data r
+LEFT JOIN cpmihitcountrules_data h ON r.objid::text = h.ruleuid
+LEFT JOIN accessctrlrulebase_data l ON r.inlinelayer = l.objid
+LEFT JOIN policypackage_data p ON l.folder = p.objid
+WHERE r.deleted = false AND r.dlesession = 0
+ORDER BY p.name, l.name, r.num;
+"
+```
